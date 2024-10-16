@@ -10,4 +10,3 @@ updates:
     allow:
       - dependency-type: "all"
 
-
