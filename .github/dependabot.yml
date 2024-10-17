@@ -2,7 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "terraform"
     directories:
-      - "/helm/gke/business-dev/**"
+      - "/helm/gke/business-dev/**/*"
     schedule:
       interval: "daily"
       time: "09:00"
