@@ -40,7 +40,7 @@ updates:
     groups:
       providers:
         patterns:
-          - "provider*"
+          - "hashicorp/*"
       modules:
         patterns:
           - "module*"
