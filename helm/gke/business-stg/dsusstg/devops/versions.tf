@@ -4,15 +4,15 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~> 4.0"
+      version = "~> 6.7"
     }
     google-beta = {
       source  = "hashicorp/google-beta"
-      version = "~> 2.0"
+      version = "~> 6.7"
     }
     vault = {
       source  = "hashicorp/vault"
-      version = "~> 2.0"
+      version = "~> 4.4"
     }
     helm = {
       source = "hashicorp/helm"
