@@ -28,3 +28,21 @@ updates:
     open-pull-requests-limit: 3
     allow:
       - dependency-type: "all"
+
+  - package-ecosystem: "terraform"
+    directories:
+      - "/helm/gke/business-stg/**/*"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 3
+    groups:
+      providers:
+        patterns:
+          - "provider*"
+      modules:
+        patterns:
+          - "module*"
+    allow:
+      - dependency-type: "all"
