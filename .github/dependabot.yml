@@ -7,7 +7,14 @@ updates:
       interval: "daily"
       time: "09:00"
       timezone: "America/New_York"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 8
+    groups:
+      providers:
+        patterns:
+          - "provider*"
+      modules:
+        patterns:
+          - "module*"
     allow:
       - dependency-type: "all"
 
