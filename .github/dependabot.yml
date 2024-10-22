@@ -28,7 +28,7 @@ updates:
     ignore:
       - dependency-name: "hashicorp/vault"
         versions: ["4.x"]
-      - dependency-name: "grafana/*"
+      - dependency-name: "grafana/grafana"
         versions: ["3.x"]
     open-pull-requests-limit: 3
 
