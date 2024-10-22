@@ -30,7 +30,7 @@ updates:
         versions: '>= 3'
       - dependency-name: "grafana/grafana"
         update-types: ["version-update:semver-major"]
-    open-pull-requests-limit: 4
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "terraform"
     directories:
