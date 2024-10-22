@@ -27,6 +27,9 @@ updates:
       timezone: "America/New_York"
     groups:
       providers:
+        update-types:
+          - "minor"
+          - "patch"
         patterns:
           - "hashicorp/vault"
           - "grafana/grafana"
