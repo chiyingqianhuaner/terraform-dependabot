@@ -29,7 +29,7 @@ updates:
       - dependency-name: "hashicorp/vault"
         versions: '>= 3'
       - dependency-name: "grafana/grafana"
-        update-types: ["version-update:semver-major"]
+        versions: '>= 3'
     open-pull-requests-limit: 6
 
   - package-ecosystem: "terraform"
