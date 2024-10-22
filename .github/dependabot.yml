@@ -27,7 +27,7 @@ updates:
       timezone: "America/New_York"
     ignore:
       - dependency-name: "hashicorp/vault"
-        versions: '>= 3'
+        versions: '>= 4'
       - dependency-name: "grafana/grafana"
         versions: '>= 3'
     open-pull-requests-limit: 6
