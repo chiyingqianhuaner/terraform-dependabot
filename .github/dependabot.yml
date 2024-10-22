@@ -26,10 +26,7 @@ updates:
       time: "09:00"
       timezone: "America/New_York"
     groups:
-      providers:
-        update-types:
-          - "minor"
-          - "patch"
+      business-prod-dependencies:
         patterns:
           - "hashicorp/vault"
           - "grafana/grafana"
