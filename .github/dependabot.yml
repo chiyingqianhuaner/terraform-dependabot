@@ -30,7 +30,7 @@ updates:
         versions: ["3.x"]
       - dependency-name: "grafana/grafana"
         versions: ["3.x"]
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 4
 
   - package-ecosystem: "terraform"
     directories:
