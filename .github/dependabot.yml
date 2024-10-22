@@ -27,8 +27,6 @@ updates:
       timezone: "America/New_York"
     versioning-strategy: "increase-if-necessary"
     open-pull-requests-limit: 3
-    allow:
-      - dependency-type: "all"
 
   - package-ecosystem: "terraform"
     directories:
