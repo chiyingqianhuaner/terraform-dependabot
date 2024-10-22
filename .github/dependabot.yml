@@ -28,6 +28,7 @@ updates:
     ignore:
       - dependency-name: "hashicorp/vault"
         versions: '>= 4'
+        update-types: ["version-update:semver-major"]
       - dependency-name: "grafana/grafana"
         versions: '>= 3'
     open-pull-requests-limit: 6
