@@ -12,7 +12,7 @@ terraform {
     }
     vault = {
       source  = "hashicorp/vault"
-      version = "~> 4.4"
+      version = "~> 2.0"
     }
     helm = {
       source  = "hashicorp/helm"
