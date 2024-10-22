@@ -27,9 +27,9 @@ updates:
       timezone: "America/New_York"
     ignore:
       - dependency-name: "hashicorp/vault"
-        versions: ["3.x"]
+        versions: '>= 3'
       - dependency-name: "grafana/grafana"
-        versions: ["3.x"]
+        update-types: ["version-update:semver-major"]
     open-pull-requests-limit: 4
 
   - package-ecosystem: "terraform"
