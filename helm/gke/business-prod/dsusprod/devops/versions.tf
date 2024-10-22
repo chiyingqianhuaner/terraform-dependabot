@@ -12,7 +12,7 @@ terraform {
     }
     vault = {
       source  = "hashicorp/vault"
-      version = "~> 2.0"
+      version = "~> 3.25"
     }
     helm = {
       source  = "hashicorp/helm"
@@ -24,7 +24,7 @@ terraform {
     }
     grafana = {
       source  = "grafana/grafana"
-      version = "~> 1.3"
+      version = "~> 2.19"
     }
   }
 }
