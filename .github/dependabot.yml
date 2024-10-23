@@ -30,7 +30,7 @@ updates:
         patterns:
           - "hashicorp/*"
           - "grafana/grafana"
-      modules:
+      business-prod-modules:
         patterns:
           - "terraform-google-modules/*"
     ignore:
