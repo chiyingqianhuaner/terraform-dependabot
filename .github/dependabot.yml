@@ -28,8 +28,11 @@ updates:
     groups:
       business-prod-dependencies:
         patterns:
-          - "hashicorp/vault"
+          - "hashicorp/*"
           - "grafana/grafana"
+      modules:
+        patterns:
+          - "module*"
     ignore:
       - dependency-name: "hashicorp/vault"
         versions: '>= 4'
