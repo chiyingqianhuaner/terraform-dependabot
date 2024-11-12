@@ -4,19 +4,19 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~> 4.0"
+      version = "~> 6.11"
     }
     google-beta = {
       source  = "hashicorp/google-beta"
-      version = "~> 2.0"
+      version = "~> 6.11"
     }
     vault = {
       source  = "hashicorp/vault"
-      version = "~> 2.0"
+      version = "~> 3.25"
     }
     helm = {
       source  = "hashicorp/helm"
-      version = "~> 1.0"
+      version = "~> 2.16"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
@@ -24,7 +24,7 @@ terraform {
     }
     grafana = {
       source  = "grafana/grafana"
-      version = "~> 1.3"
+      version = "~> 2.19"
     }
   }
 }
